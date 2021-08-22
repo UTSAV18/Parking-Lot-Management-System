@@ -1,0 +1,252 @@
+<!-- Team Members 
+1. Utsav Addy
+2. Mandar Gajbhiye
+3. Pooja Kumari
+4. Angel Rajam
+5. Lopamudra Sahoo
+6. Nikhil Rao
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>ParkEasy</title>
+</head>
+
+<body>
+    <!--preloader section-->
+    <div class="rock">
+        <div class="highway"></div>
+        <div class="city"></div>
+        <div class="car">
+            <img src="car.png">
+        </div>
+        <div class="wheel">
+            <img src="wheel.png" class="back-wheel">
+            <img src="wheel.png" class="front-wheel">
+
+        </div>
+
+    </div>
+
+
+    <!--Hero section-->
+    <nav>
+        <header id="header">
+            <a href="#" class="logo">ParkEasy</a>
+
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#div1">About</a></li>
+                <li><a href="#table">Register</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    </nav>
+    </header>
+    <section>
+        <h3 class="main-title">Hassle-Free Parking.</h3>
+        <img src="background.jpg" id="background">
+        <img src="foreground.png" id="foreground">
+    </section>
+    <script src="app.js"></script>
+
+    <!--About us-->
+
+    <section id="div1">
+        <div class="pre1">
+            <h1>About Us</h1>
+            <h3>An End-to-End Parking Management System</h3>
+
+            <p> ParkEasy's Smart Parking System is a unique parking management solution.
+                Suitable for all types of parking areas, it digitizes end-to end parking processes
+                including multi-tenant, multi-level parking.<br>
+                It is integrated with visitor management system, FASTag, and access control hardware.
+                Extremely useful for shared parking spaces, the solution automates day-to-day
+                processes such as auto-identifying appropriate parking slots - be it reserved or
+                pay-and-park, auto-generating parking tickets, levying penalties, and many more. <br></p>
+
+            <h3>ParkEasy Parking Management System - At A Glance</h3>
+            <p>
+                Most parking spaces, including MLCP buildings, are manually managed.
+                This makes managing multi-tenant, multi-level car parking chaotic -
+                a headache for parking lot owners and providers.<br>
+                ParkEasy’s parking management system digitizes the end-to-end management of
+                parking spaces and all parking processes related to visitors, vehicles, & payments.
+                It eliminates manual monitoring and tracking of vehicles.<br>
+                With ParkEasy smart parking management system, you can define and customize
+                areas like paid, visitor, staff, tenants, etc. Allocation of slots becomes easy.
+                Live countdown of occupied versus unoccupied slots, filled versus unfilled slots,
+                etc. can be displayed on a LED screen and on the phone.</p>
+        </div>
+    </section>
+
+    <marquee class="m1" behavior="scroll" direction="left" scrollamount="15">
+        <img src="1.jpg" alt="img" class="img">
+        <img src="2.jpg" alt="img" class="img">
+        <img src="3.jpg" alt="img" class="img">
+        <img src="4.jpg" alt="img" class="img">
+        <img src="5.jpg" alt="img" class="img">
+        <img src="6.jpg" alt="img" class="img">
+        <img src="7.jpg" alt="img" class="img">
+        <img src="8.jpg" alt="img" class="img">
+        <img src="9.jpg" alt="img" class="img">
+
+    </marquee>
+
+    <!--table section-->
+    <section id="table" style="padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20%;">
+        <center>
+            <h1 style="text-decoration:none; color:rgba(240, 248, 255, 0.746); font-size: 2rem; padding-top: 0;">PARKING
+                REGISTRATION</h1>
+            <h3 style="color: white">*After filling the details, click on the button "Register" to confirm registration
+            </h3>
+            <br>
+            <table class="table-border" border="10" width="70%" height="375px">
+                <thead>
+                    <tr>
+                        <th class="tab-elements">Name</th>
+                        <td class="tab-elements"><input class="fill" type="text" name="name" id="name"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="tab-elements">Vehicle Name</th>
+                        <td class="tab-elements"><input class="fill" type="text" name="vname" id="vname"></td>
+                    </tr>
+                    <tr>
+                        <th class="tab-elements">Vehicle Number</th>
+                        <td class="tab-elements"><input class="fill" type="text" name="vnum" id="vnum"></td>
+                    </tr>
+                    <tr>
+                        <th class="tab-elements">Entry Date</th>
+                        <td class="tab-elements"><input class="fill" type="date" name="endate" id="endate"></td>
+                    </tr>
+                    <tr>
+                        <th class="tab-elements">Exit Date</th>
+                        <td class="tab-elements"><input class="fill" type="date" name="exdate" id="exdate"></td>
+                    </tr>
+                    <tr id="btna">
+                        <td colspan="2"><input class="fill" type="button" name="button" id="btn" value="REGISTER"
+                                onclick="AddRow()">
+                        </td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+            <br><br><br>
+            <table class="table-border" border="10" id="show" width="70%">
+                <thead>
+                    <tr>
+                        <th class="tab-elements">Name</th>
+                        <th class="tab-elements">Vehicle Name</th>
+                        <th class="tab-elements">Vehicle Number</th>
+                        <th class="tab-elements">Entry Date</th>
+                        <th class="tab-elements">Exit Date</th>
+                    </tr>
+                </thead>
+            </table>
+        </center>
+    </section>
+    <script>
+        var list1 = [];
+        var list2 = [];
+        var list3 = [];
+        var list4 = [];
+        var list5 = [];
+        var n = 1;
+        var x = 0;
+        function AddRow() {
+            var AddRown = document.getElementById('show');
+            var NewRow = AddRown.insertRow(n);
+            list1[x] = document.getElementById("name").value;
+            list2[x] = document.getElementById("vname").value;
+            list3[x] = document.getElementById("vnum").value;
+            list4[x] = document.getElementById("endate").value;
+            list5[x] = document.getElementById("exdate").value;
+            var cel1 = NewRow.insertCell(0);
+            var cel2 = NewRow.insertCell(1);
+            var cel3 = NewRow.insertCell(2);
+            var cel4 = NewRow.insertCell(3);
+            var cel5 = NewRow.insertCell(4);
+            cel1.innerHTML = list1[x];
+            cel2.innerHTML = list2[x];
+            cel3.innerHTML = list3[x];
+            cel4.innerHTML = list4[x];
+            cel5.innerHTML = list5[x];
+            n++;
+            x++;
+        }
+    </script>
+    <!-- footer section-->
+    <section id="footer">
+        <div class="top">
+            <h1 class="footer-title">Save money by pre booking online</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2 class="heads"><a href="#"><i class="fas fa-map-marker-alt"></i></a>ParkEasy</h2><br>
+                <p class="p">We are the official providers for parking. You can't park closer!</p>
+                <button class="bton">Download on the<br><i class="fab fa-google-play"></i>GOOGLE PLAY</button>
+            </div>
+            <div class="column">
+                <h2 class="heads">Navigation</h2><br>
+                <ul class="ul">
+                    <li class="tags">Price Guide</li>
+                    <li class="tags">Car Wash</li>
+                    <li class="tags">Location</li>
+                    <li class="tags">Reservation</li>
+                    <li class="tags">Parking Options</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2 class="heads">Contact Info</h2>
+                <p class="p">Corporate Office Address:</p>
+                <h5><a href="#"><i class="fas fa-map-marker-alt"></i></a>1234 River Street New York, NY</h5>
+                <br>
+                <p class="p">Customer Service</p>
+                <h5><a href="#"><i class="fas fa-phone-alt"></i></a>1 (234) 567 8009</h5>
+            </div>
+            <div class="column">
+                <h2 class="heads">Discover</h2>
+                <ul class="ul">
+                    <li>Help</li>
+                    <li>How It Works</li>
+                    <li>Contact Us</li>
+                </ul>
+                <div class="Contact">
+                    <ul class="info">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="https://www.instagram.com/instagram/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.tumblr.com/tagged/main+page?sort=top"><i
+                                class="fab fa-tumblr fa-2x"></i></a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="outer-footer">
+            ParkEasy &copy; 2021 All Rights Reserved
+        </div>
+    </section>
+</body>
+
+</html>
